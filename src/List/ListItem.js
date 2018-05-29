@@ -109,7 +109,7 @@ function getStyles(props, context, state) {
     rightIconButton: {
       position: 'absolute',
       display: 'block',
-      top: twoLine ? 12 : singleAvatar ? 4 : 0,
+      top: twoLine ? 12 : singleAvatar ? 0 : 0,
       right: 4,
     },
 

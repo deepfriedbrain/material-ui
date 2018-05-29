@@ -15,9 +15,9 @@ function getStyles(props, context) {
       boxSizing: 'border-box',
       overflow: 'visible',
       transition: transitions.easeOut(),
-      padding: baseTheme.spacing.iconSize / 2,
-      width: baseTheme.spacing.iconSize * 2,
-      height: baseTheme.spacing.iconSize * 2,
+      padding: baseTheme.spacing.iconSize / 2 - 4,
+      width: baseTheme.spacing.iconSize * 2 - 8,
+      height: baseTheme.spacing.iconSize * 2 - 8,
       fontSize: 0,
     },
     tooltip: {
